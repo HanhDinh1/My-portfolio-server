@@ -1,15 +1,12 @@
-# fly.toml file generated for hanhporfolio on 2023-01-30T23:03:44-05:00
+# fly.toml file generated for hanhdinh on 2023-02-02T01:18:04-05:00
 
-app = "hanhporfolio"
+app = "hanhdinh"
 kill_signal = "SIGINT"
 kill_timeout = 5
 processes = []
 
-[build]
-  builder = "heroku/buildpacks:20"
-
 [env]
-  PORT = "8080"
+PORT="8080"
 
 [experimental]
   auto_rollback = true
